@@ -16,21 +16,12 @@ FitTracker is a modern fitness web application built and deployed with **Lovable
 - **Backend**: Lovable + Supabase (for database & authentication)  
 - **Deployment**: Lovable Hosting  
 
-## 📂 Project Structure
-```
-fittracker/
-├── public/          # Static assets
-├── src/             # React components & pages
-├── lovable.json     # Lovable configuration
-└── README.md        # Project documentation
-```
-
 ## 🔧 Setup & Installation
 If you want to run this project locally:  
 
 1. Clone the repo  
    ```bash
-   git clone https://github.com/yourusername/fittracker.git
+   git clone https://github.com/Innothegreat/FitTracker-App-Lovable.git
    cd fittracker
    ```
 2. Install dependencies  
