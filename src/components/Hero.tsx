@@ -1,17 +1,11 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Play } from "lucide-react";
 import heroImage from "@/assets/fitness-hero.jpg";
-
 const Hero = () => {
-  return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
-        <img 
-          src={heroImage} 
-          alt="People exercising in a modern gym" 
-          className="w-full h-full object-cover"
-        />
+        <img src={heroImage} alt="People exercising in a modern gym" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-transparent"></div>
       </div>
       
@@ -35,11 +29,7 @@ const Hero = () => {
             <ArrowRight className="ml-2 h-5 w-5" />
           </Button>
           
-          <Button 
-            variant="outline" 
-            size="lg" 
-            className="border-white/30 text-white hover:bg-white/10 backdrop-blur-sm px-8 py-4 text-lg"
-          >
+          <Button variant="outline" size="lg" className="border-white/30 hover:bg-white/10 backdrop-blur-sm px-8 py-4 text-lg text-gray-950">
             <Play className="mr-2 h-5 w-5" />
             Watch Demo
           </Button>
@@ -60,8 +50,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
